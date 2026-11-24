@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TAYARAN</string>
+
+    <!-- Home -->
+    <string name="btn_get_started">ابدأ الآن</string>
+    <string name="btn_show_loading">عرض التحميل</string>
+    <string name="btn_pause">إيقاف مؤقت</string>
+    <string name="btn_resume">استئناف</string>
+    <string name="btn_destroy">إنهاء</string>
+    <string name="progress_percent">%1$d%%</string>
+    <string name="toast_loading_completed">اكتمل التحميل!</string>
+
+    <!-- Login -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="error_invalid_email">أدخل عنوان بريد إلكتروني صالحًا</string>
+    <string name="error_short_password">يجب أن تتكون كلمة المرور من 6 أحرف على الأقل</string>
+
+    <!-- Profile -->
+    <string name="profile_title">ملفي الشخصي</string>
+    <string name="hint_name">الاسم</string>
+    <string name="btn_save">حفظ</string>
+    <string name="error_field_required">هذا الحقل مطلوب</string>
+    <string name="toast_profile_saved">تم حفظ الملف الشخصي</string>
+
+    <!-- Flight search -->
+    <string name="search_title">البحث عن رحلات</string>
+    <string name="hint_from">من</string>
+    <string name="hint_to">إلى</string>
+    <string name="hint_travel_date">تاريخ السفر</string>
+    <string name="btn_search">بحث</string>
+    <string name="error_required">مطلوب</string>
+
+    <!-- Booking confirmation -->
+    <string name="booking_title">تم تأكيد الحجز</string>
+    <string name="booking_thanks">شكرًا %1$s!</string>
+    <string name="booking_route">من %1$s إلى %2$s</string>
+    <string name="booking_route_with_date">من %1$s إلى %2$s بتاريخ %3$s</string>
+    <string name="booking_no_data">لم يتم استلام بيانات الحجز.</string>
+    <string name="btn_back">رجوع</string>
+    <string name="toast_booking_result_received">تم استلام نتيجة الحجز</string>
+
+    <!-- Travel tools (Atelier 4 services) -->
+    <string name="btn_travel_tools">أدوات السفر</string>
+    <string name="services_title">أدوات السفر</string>
+    <string name="btn_sync_flights">مزامنة الرحلات (10 ث)</string>
+    <string name="btn_voice_note">تسجيل ملاحظة صوتية (15 ث)</string>
+    <string name="btn_voice_analyse">تحليل التفضيلات الصوتية</string>
+    <string name="btn_run_all">تشغيل الخدمات الثلاث (تجريبي)</string>
+    <string name="label_last_analysis">آخر تحليل صوتي</string>
+    <string name="last_analysis_none">لا يوجد تحليل بعد</string>
+    <string name="toast_sync_started">بدأت مزامنة الرحلات</string>
+    <string name="toast_sync_done">تمت مزامنة الرحلات</string>
+    <string name="toast_recording_started">بدأ التسجيل</string>
+    <string name="toast_voice_saved">تم حفظ الملاحظة الصوتية: %1$s</string>
+    <string name="toast_recording_failed">فشل التسجيل</string>
+    <string name="toast_analysis_started">جارٍ الاستماع... تحدّث الآن</string>
+    <string name="toast_analysis_unavailable">التعرف على الكلام غير متاح على هذا الجهاز</string>
+    <string name="toast_analysis_error">لم يتم التعرف على الكلام (خطأ %1$d)</string>
+    <string name="toast_analysis_result">التفضيلات المحلَّلة:\n%1$s</string>
+    <string name="notif_channel_name">تسجيل الصوت</string>
+    <string name="notif_title">التسجيل جارٍ</string>
+    <string name="notif_text">جارٍ التقاط الميكروفون…</string>
+    <string name="perm_notif_denied">تم رفض الإشعارات: لن يظهر إشعار التسجيل</string>
+    <string name="perm_denied_simple">تم رفض الأذونات</string>
+    <string name="perm_denied_permanent">تم رفض الإذن نهائيًا: افتح إعدادات التطبيق للسماح به</string>
+    <string name="perm_partial">إذن مفقود: %1$s</string>
+    <string name="perm_name_micro">الميكروفون</string>
+    <string name="perm_name_audio">الملفات الصوتية</string>
+</resources>

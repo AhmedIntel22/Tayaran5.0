@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme forced to Light -->
+    <style name="Base.Theme.Tayaran" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="android:textColorPrimary">@color/text_dark</item>
+    </style>
+
+    <style name="Theme.Tayaran" parent="Base.Theme.Tayaran" />
+</resources>

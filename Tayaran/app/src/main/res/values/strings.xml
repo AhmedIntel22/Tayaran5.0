@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">TAYARAN</string>
+
+    <!-- Home -->
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_show_loading">Show Loading</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_destroy">Destroy</string>
+    <string name="progress_percent">%1$d%%</string>
+    <string name="toast_loading_completed">Loading Completed!</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_save">Save</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="toast_profile_saved">Profile saved</string>
+
+    <!-- Flight search -->
+    <string name="search_title">Search Flights</string>
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="hint_travel_date">Travel date</string>
+    <string name="btn_search">Search</string>
+    <string name="error_required">Required</string>
+
+    <!-- Booking confirmation -->
+    <string name="booking_title">Booking Confirmed</string>
+    <string name="booking_thanks">Thank you %1$s!</string>
+    <string name="booking_route">%1$s -> %2$s</string>
+    <string name="booking_route_with_date">%1$s -> %2$s on %3$s</string>
+    <string name="booking_no_data">No booking data received.</string>
+    <string name="btn_back">Back</string>
+    <string name="toast_booking_result_received">Booking result received</string>
+
+    <!-- Travel tools (Atelier 4 services) -->
+    <string name="btn_travel_tools">Travel Tools</string>
+    <string name="services_title">Travel Tools</string>
+    <string name="btn_sync_flights">Sync flights (10 s)</string>
+    <string name="btn_voice_note">Record voice note (15 s)</string>
+    <string name="btn_voice_analyse">Analyse voice preferences</string>
+    <string name="btn_run_all">Run all 3 services (demo)</string>
+    <string name="label_last_analysis">Last voice analysis</string>
+    <string name="last_analysis_none">No analysis yet</string>
+    <string name="toast_sync_started">Flight sync started</string>
+    <string name="toast_sync_done">Flights synchronized</string>
+    <string name="toast_recording_started">Recording started</string>
+    <string name="toast_voice_saved">Voice note saved: %1$s</string>
+    <string name="toast_recording_failed">Recording failed</string>
+    <string name="toast_analysis_started">Listening... speak now</string>
+    <string name="toast_analysis_unavailable">Speech recognition is not available on this device</string>
+    <string name="toast_analysis_error">Speech not recognized (error %1$d)</string>
+    <string name="toast_analysis_result">Analysed preferences:\n%1$s</string>
+    <string name="notif_channel_name">Audio recording</string>
+    <string name="notif_title">Recording in progress</string>
+    <string name="notif_text">Capturing the microphone…</string>
+    <string name="perm_notif_denied">Notification denied: the recording notification will not be visible</string>
+    <string name="perm_denied_simple">Permissions denied</string>
+    <string name="perm_denied_permanent">Permission permanently denied: open the app settings to allow it</string>
+    <string name="perm_partial">Missing permission: %1$s</string>
+    <string name="perm_name_micro">microphone</string>
+    <string name="perm_name_audio">audio files</string>
+</resources>
